@@ -1,0 +1,204 @@
+body{
+    margin:0px;
+}
+
+/*Body Header*/
+#body-header{
+    height:65vh;
+    background-image:url(background.jpg);
+    background-size:cover;background-position: center;
+    background-attachment: fixed;
+
+  
+}
+
+.text-center {
+    text-align: center;
+}
+
+.horizontal-list{
+    list-style: none;
+    padding-left:0px;
+    margin:0px;
+}
+.horizontal-list li{
+    display:inline-block;
+    margin:4px 8px 0px 8px;
+}
+
+.horizontal-list li a{
+    color:white;
+    text-decoration: none;
+    font-size:1.5rem;
+    
+}
+
+.horizontal-list li a:hover{
+    color:lightgrey;
+    
+
+}
+
+.nav-menu li a{
+    transition: color 0.5s,border-bottom 4s;
+    
+}
+
+.nav-menu li a:hover{
+    border-bottom: 1px solid white;
+}
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-shadow: 1px 1px 1px rgb(245, 248, 248);
+}
+
+.social-icons li {
+    border-radius: 50%;
+}
+
+.social-icons li:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+.social-icons li a i {
+    width: 1.2rem;
+    padding: 8px;
+    border-radius: 50%;
+  
+}
+
+#about{
+    height:auto;
+    width:100%;
+    position:relative;
+}
+
+#my-image{
+    height:13rem;
+    width:13rem;
+    margin:auto;
+}
+
+#my-image img{
+    height:100%;
+    width:100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 4px lightgrey;
+    margin-top: -50%;
+    border:4px solid white;
+}
+
+#about p{
+    font-size:1.5rem;
+    font-weight:bold;
+    margin-top:0.01%;
+    padding-left:10%;
+    padding-right:10%;
+    line-height: 150%;
+    word-spacing: 0.5rem;   
+    color:grey;
+}
+
+.highlight-text{
+    color:rgb(59, 59, 148);
+}
+
+section{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    height:75vh;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+section:nth-child(2n){
+    background-color:rgb(241, 238, 238);
+}
+
+section:nth-child(2n+1){
+    background-color:white;
+}
+
+.section-heading{
+    width:auto;
+    padding:20px 10px 10px 10px;
+    margin: 10px auto;
+    font-weight:bolder;
+}
+
+.section-heading span{
+    font-size:40px;
+    color:rgb(59, 59, 148);
+    display:inline-block;
+    padding-top:10px;
+    margin-right:0.5 rem;
+}
+
+.skills-display{
+    width:70%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill-progress{
+    width:12rem;
+    height:2.2rem;
+    background-color: rgba(49, 45, 45, 0.452);
+    border-radius:1rem;
+    margin-bottom:3%;
+    margin-top:5%;
+
+    
+}
+
+.mb-blue{
+    background-color: rgb(19, 163, 230);
+}
+.ninety-percent{
+    width:90%;
+    height:inherit;
+}
+.eighty-five-percent{
+    width:85%;
+    height:inherit;
+}
+.seventy-five-percent{
+    width:75%;
+    height:inherit;
+}
+
+.skill-name span{
+    color:white;
+    font-size:1.5rem;
+    margin-left:10px;
+    margin-top:5%;
+    
+}
+
+.skill-progress>div{
+    border-radius:20px 0px 0px 20px ;
+}
+
+.edu{
+    border-radius:20px ;
+    border:2px solid black;
+    margin:20px;
+    padding:10px;
+    display:inline-block;
+}
+
+
